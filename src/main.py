@@ -133,6 +133,7 @@ def save_josn(result, path):
 
 
 def main(year, my_mark, target_province):
+
     school_lists = get_MatchSchool(my_mark, target_province)
     print(school_lists)
     school_infos = []
@@ -150,4 +151,4 @@ def main(year, my_mark, target_province):
 
 
 if __name__ == "__main__":
-    main(year=2021, my_mark=336, target_province=13)
+    main(year=2021, my_mark=336, target_province=11)
